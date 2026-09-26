@@ -1,0 +1,34 @@
+{
+  "phase": "exploratory_milestone_pressure",
+  "source_sha256": "a74e0af75e9a457002e917ac8fa4ac52ccd53d9938ec56eac1235d0e2b564670",
+  "adapter_sha256": "a58ab07425059815776e220544353fdaf07a50843d4d30009ad0fb371f9132fb",
+  "plan_sha256": "fac4ce20c9aeb91a85abdd47128c747bbc9fdf31c2d9ba02f5bd13fe22fbafb4",
+  "episodes": [
+    {
+      "file": "episode-01-seed-1.json",
+      "raw_sha256": "003bd298d6775c911b2a3d6332130145b24e098582ecd0207ad3d1fa2e9556a1",
+      "public_sha256": "ebf950671dc22dbb5f5ce8fdfef33c1e22361155289f0468dbb8dc511584dc0a"
+    },
+    {
+      "file": "episode-02-seed-2.json",
+      "raw_sha256": "689f75a5019a9193be149353ea093135d76f2b69807ce36f4a4dee2350986858",
+      "public_sha256": "6c016b8b83fbf3e740f2eb45bcefd82c4305288aca69e47a8323c8b580fd6ca5"
+    },
+    {
+      "file": "episode-03-seed-3.json",
+      "raw_sha256": "d9c1c3408d3f2bcd221cb9648c220b979da0e918a271d4adaa65eed81d4ede3f",
+      "public_sha256": "e85a6baec9d47c3426cbd4fd78db9e7376da920093c99f66617b695abf6ee188"
+    },
+    {
+      "file": "episode-04-seed-4.json",
+      "raw_sha256": "806f6298368b4608c1647d0f2ad15a27cee72a791ced2fa2612422284d6c968c",
+      "public_sha256": "02fde7cf4d734a50121de7ae7fd2b1d080f6db38c1aeca4396c3c0eda3699214"
+    },
+    {
+      "file": "episode-05-seed-5.json",
+      "raw_sha256": "a0798289eb7170680d55e2b5ae9918030056794f22704e16323562cc27bd4f33",
+      "public_sha256": "489d367e677c6a6a74a6e8a670e621900a830e9b2a47c391761fa82e9cc35593"
+    }
+  ],
+  "original_results_sha256": "d98827cca000cc266f94f074e3cd08fb3bc8d5638a1eeb33df563f351b241017"
+}

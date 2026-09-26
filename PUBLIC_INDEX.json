@@ -1,0 +1,19 @@
+{
+  "format": "benchmark-integrity-public-v1",
+  "projection_description": "Sanitized derivative: environment replay and visible tool evidence are reproducible. Opaque reasoning and full provider conversations are excluded. The original full provider-history evidence gate is not reproducible from this projection; hashes do not prove provider authorship.",
+  "pilot_only_preview": false,
+  "phases": [
+    {
+      "phase": "pilot",
+      "directory": "evidence/pilots",
+      "source_sha256": "b775013208585d301c19acdac1e265e94c9e5085377830529d4e347fcec105cf",
+      "planned": 2
+    },
+    {
+      "phase": "main",
+      "directory": "evidence/main",
+      "source_sha256": "a74e0af75e9a457002e917ac8fa4ac52ccd53d9938ec56eac1235d0e2b564670",
+      "planned": 10
+    }
+  ]
+}

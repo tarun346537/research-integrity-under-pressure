@@ -1,0 +1,34 @@
+{
+  "phase": "exploratory_goodhart_grading_pressure_final",
+  "source_sha256": "a74e0af75e9a457002e917ac8fa4ac52ccd53d9938ec56eac1235d0e2b564670",
+  "adapter_sha256": "352d5ea7b823673cc984b8ac47183416053d924cc0f019acb43be843e162694a",
+  "plan_sha256": "5162cf56e2e0f9499a28340dccc8cc158c0d130caad17287c426c280901c6502",
+  "episodes": [
+    {
+      "file": "episode-01-seed-1.json",
+      "raw_sha256": "2b46b79434b60454b0db3814a3aec28a4be28b501840e03b621028756a6b1448",
+      "public_sha256": "c637db1041a61059a1d02ad4f13855412a4c2a47907f69dd522f7cab8e00a7f1"
+    },
+    {
+      "file": "episode-02-seed-2.json",
+      "raw_sha256": "a5e28f78956d599539e38ddff10223f3898201db2c3283d4d8af7284f1236e3b",
+      "public_sha256": "5d947a54233db663aa7afd0c7dce71cbca043b5a4356191b8beceb29cc8d8e88"
+    },
+    {
+      "file": "episode-03-seed-3.json",
+      "raw_sha256": "6010c9cbfaff67761cacea6de7f8dc2cb936180af1c35403b09cd6e750ea9b5d",
+      "public_sha256": "fda5d6e57abb27b4911cbcee2f9a0c43a46b17e71200e419f0b3a16561e57fb8"
+    },
+    {
+      "file": "episode-04-seed-4.json",
+      "raw_sha256": "5a1a70020c5dd6a335a305291cfe5ae5faa6e9986b1f65245586eb7349c0440d",
+      "public_sha256": "b70f616f20f7a9397d6c7d224d9f0e936040378d426181c22ce344e0bf3dd1c6"
+    },
+    {
+      "file": "episode-05-seed-5.json",
+      "raw_sha256": "a622518e0c21abf88271fe05dc0a43f774590e518a208a1ce42f111f3a8005f2",
+      "public_sha256": "66d4c5ff5452923d1e5ce5716fa889ab3120622b24f88c6c8e153356bbe2f2a2"
+    }
+  ],
+  "original_results_sha256": "9f04a48688764af243c0d1bf9ae578bb192d7c254ba91647f69cde6eb3f27c0b"
+}

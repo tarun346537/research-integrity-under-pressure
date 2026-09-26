@@ -1,0 +1,214 @@
+{
+  "format": "benchmark-integrity-public-v1",
+  "projection_description": "Sanitized derivative: environment replay and visible tool evidence are reproducible. Opaque reasoning and full provider conversations are excluded. The original full provider-history evidence gate is not reproducible from this projection; hashes do not prove provider authorship.",
+  "allowed_emails": [],
+  "verification_ignored_paths": [
+    ".git",
+    ".venv",
+    "__pycache__",
+    "*.egg-info",
+    "build"
+  ],
+  "raw_to_public": [
+    {
+      "phase": "pilot",
+      "role": "source_archive",
+      "raw_sha256": "2e3ff3cf75ff5a89692086e80e7953ad2321259be807a2b46c0f16f9746d8b00",
+      "public_relative_path": "evidence/pilots/executed-source.zip",
+      "public_sha256": "2e3ff3cf75ff5a89692086e80e7953ad2321259be807a2b46c0f16f9746d8b00"
+    },
+    {
+      "phase": "pilot",
+      "role": "plan",
+      "raw_sha256": "29ac50230f30022762e141a4791ea1548c2f2f712b3ff47566b8f571f41a2e95",
+      "public_relative_path": "evidence/pilots/plan.json",
+      "public_sha256": "29ac50230f30022762e141a4791ea1548c2f2f712b3ff47566b8f571f41a2e95"
+    },
+    {
+      "phase": "pilot",
+      "role": "episode",
+      "ordinal": 1,
+      "raw_sha256": "d2743789b89c0ad72231948f85c098763a5f7d9e0bf0fc3d7421be693ffc4c7c",
+      "public_relative_path": "evidence/pilots/episode-01.json",
+      "public_sha256": "b6958117cc0bead43d720efc53654b9de656c39e804f2aa446a275f519c04394"
+    },
+    {
+      "phase": "pilot",
+      "role": "episode",
+      "ordinal": 2,
+      "raw_sha256": "9eba9a8bc52379781fd85841ce8ffef835e65c211557b09aaadb3992107fe41b",
+      "public_relative_path": "evidence/pilots/episode-02.json",
+      "public_sha256": "351694dc92a4455df54d9b60f5706e83f8e93089ffc6092f664fcb1feb2510d1"
+    },
+    {
+      "phase": "pilot",
+      "role": "run_index",
+      "raw_sha256": "a6bdd927f9730c9e1d19c443dadae1147a6b8c4ea3260c8c12fe0da371069c33",
+      "public_relative_path": "evidence/pilots/index.json",
+      "public_sha256": "48d293e493009e3d7f68552099dade1abde632a343d8c02aef330c00c776bc11"
+    },
+    {
+      "phase": "main",
+      "role": "source_archive",
+      "raw_sha256": "13a213d1d7f25bf1ea0b97a118deee7f916a2305c58133bc7c243fb8179dfe07",
+      "public_relative_path": "evidence/main/executed-source.zip",
+      "public_sha256": "13a213d1d7f25bf1ea0b97a118deee7f916a2305c58133bc7c243fb8179dfe07"
+    },
+    {
+      "phase": "main",
+      "role": "plan",
+      "raw_sha256": "f4a140024bc3222c4e268cd2b0166454586e05c6673f3034e460371977618a91",
+      "public_relative_path": "evidence/main/plan.json",
+      "public_sha256": "7f155b31ea15691b3b99233876e74f83e52381d938c473f9e0a687dcf2967a1a"
+    },
+    {
+      "phase": "main",
+      "role": "episode",
+      "ordinal": 1,
+      "raw_sha256": "d2d6addb2b3fb0337acfdf907f93634bd68b91d02d6cd734f25e2fd773c6d794",
+      "public_relative_path": "evidence/main/episode-01.json",
+      "public_sha256": "6984ffa1a1f88d95eb00ca7cef0c05d1a1293ac25f4ccecc6c994529235d47e4"
+    },
+    {
+      "phase": "main",
+      "role": "episode",
+      "ordinal": 2,
+      "raw_sha256": "9dd307cacc222d45dcc1005aee682106d7a95259674131702d7dbf4ca1420197",
+      "public_relative_path": "evidence/main/episode-02.json",
+      "public_sha256": "8f47ab658b5fde1987dbbe34cd6af6452b1c867167af59e32108ab0f5e622703"
+    },
+    {
+      "phase": "main",
+      "role": "episode",
+      "ordinal": 3,
+      "raw_sha256": "e60cad3786c5df43161a2b2508be07b5fff0cd107cca39ae269d9b2e974694df",
+      "public_relative_path": "evidence/main/episode-03.json",
+      "public_sha256": "4480f6e960dd7f26fda5b3c03f374d2d5966e10054ace1c245b1b872ae256f0c"
+    },
+    {
+      "phase": "main",
+      "role": "episode",
+      "ordinal": 4,
+      "raw_sha256": "1d3508da3d3b2cbc5cfc9c9758a1982c9c63ee976885cb9eff6d91ac7edc3cd9",
+      "public_relative_path": "evidence/main/episode-04.json",
+      "public_sha256": "e208efc1617f150c0ab05f567f73299f177f9aec6a6bfc0df6d8f0d89a01ad03"
+    },
+    {
+      "phase": "main",
+      "role": "episode",
+      "ordinal": 5,
+      "raw_sha256": "4812d9430f8c3c94f0c123e232a5f2e6453436b90b7c453c86ab6f224d824af4",
+      "public_relative_path": "evidence/main/episode-05.json",
+      "public_sha256": "c99a3f43d33afeb1b53f3aeb0b4def08ea406e0d2f921eabd3d4b6f3ca2f141a"
+    },
+    {
+      "phase": "main",
+      "role": "episode",
+      "ordinal": 6,
+      "raw_sha256": "10f731bfc6f9440f8cdce372aef3859053f85cb928216f5c5adf3a210c6cead3",
+      "public_relative_path": "evidence/main/episode-06.json",
+      "public_sha256": "cfbe93163063b5ab2fe45e3fcbdf8f8b3eb599efaffb88113431213152fe1bd9"
+    },
+    {
+      "phase": "main",
+      "role": "episode",
+      "ordinal": 7,
+      "raw_sha256": "88f4879322166371a01e5e6a1082259920e91b004ba0d44934784840806e9cf0",
+      "public_relative_path": "evidence/main/episode-07.json",
+      "public_sha256": "40177f9b0319bc6f8c3ca252ad4714e7a440c918c3e9af623a8fac11af7c7687"
+    },
+    {
+      "phase": "main",
+      "role": "episode",
+      "ordinal": 8,
+      "raw_sha256": "9338dc0d566388349f66aa66d060467e0742c0bb32c84dc077f76e8a1353fb7e",
+      "public_relative_path": "evidence/main/episode-08.json",
+      "public_sha256": "27aa31425b20b2e8e46f55b811f34c50b26f11d81dee21a9cf0782013557b10f"
+    },
+    {
+      "phase": "main",
+      "role": "episode",
+      "ordinal": 9,
+      "raw_sha256": "11fcdc4e610c84ff948e797e4451a55ef8dbbe31ba291835e2627b31e6bb6d79",
+      "public_relative_path": "evidence/main/episode-09.json",
+      "public_sha256": "2b781b1d59ba1073ebe646ab62eb79373cba2099014b7bd79a4e085dbd794969"
+    },
+    {
+      "phase": "main",
+      "role": "episode",
+      "ordinal": 10,
+      "raw_sha256": "4501de5f4253f17a90f5fb02c13de26134b0148324cdc5fad5cf37fac550b97c",
+      "public_relative_path": "evidence/main/episode-10.json",
+      "public_sha256": "ed70b95e6fa1fa95a1abee43883a8d8de1b48c3d19d47dc181778205bd3b7ab5"
+    },
+    {
+      "phase": "main",
+      "role": "run_index",
+      "raw_sha256": "e2d9fdbf1087e6715df8fee85942f356ee410fff5d82add6fe6d6cf173509b2c",
+      "public_relative_path": "evidence/main/index.json",
+      "public_sha256": "d44e3d204ec3d9a46c897d029ee5604a2bba34881693b3847bd9fe4ea0406bf7"
+    }
+  ],
+  "files": {
+    ".gitignore": "801536b2a5037c6f2a143e0068ccd1d77228e9d0e2e4efe72f01a50b7d830c70",
+    "benchmark_integrity/__init__.py": "771dae6d2e778e17d7124d5086024ca861e76e1025324acab750940bc181c0a0",
+    "benchmark_integrity/__main__.py": "8d8136527fa3daf522b3ffc7d1ce461c1420c69dbe2cd0b644a2761d25423c9a",
+    "benchmark_integrity/artifacts.py": "f043c02367dc03655bbbc0ce0353dcbc9bd81846b6ab3c9d59ad18799af2e3ce",
+    "benchmark_integrity/controls.py": "a460c5e8cff5ec4943f1482fce3d499ae3105812bd9a64c7a7d211207a3429ae",
+    "benchmark_integrity/environment.py": "af75d8c6e40bc90531891d77c81539578b6901e107e81ae035dd9a4958eba02e",
+    "benchmark_integrity/main_evidence.py": "d77a9e7749e5613be6d0c1a65942eb127b4da87abfa9b455e57c6bc5746bce59",
+    "benchmark_integrity/main_experiment.py": "5534a023f2b2a4088f00adfae3e3c819690e29c8d2829dfebafa89f92bd044b9",
+    "benchmark_integrity/pilot.py": "cea1a9d1ab5ffb3235f9f24c57da9e9849f59997e1e3de589ca3a88691aa8f87",
+    "benchmark_integrity/pilot_evidence.py": "d5f116bbadd5b579ee3acc4aacf0ccd93e7b265c3094c86e63b7ad7054cd4fc2",
+    "benchmark_integrity/runner.py": "0cf2a15e1d9ec159b41318e392796c4f7696fc9572701dfb4d5ebd7fb2bc22f8",
+    "evidence/exploratory/explicit-pressure/episode-01-seed-1.json": "ebf950671dc22dbb5f5ce8fdfef33c1e22361155289f0468dbb8dc511584dc0a",
+    "evidence/exploratory/explicit-pressure/episode-02-seed-2.json": "6c016b8b83fbf3e740f2eb45bcefd82c4305288aca69e47a8323c8b580fd6ca5",
+    "evidence/exploratory/explicit-pressure/episode-03-seed-3.json": "e85a6baec9d47c3426cbd4fd78db9e7376da920093c99f66617b695abf6ee188",
+    "evidence/exploratory/explicit-pressure/episode-04-seed-4.json": "02fde7cf4d734a50121de7ae7fd2b1d080f6db38c1aeca4396c3c0eda3699214",
+    "evidence/exploratory/explicit-pressure/episode-05-seed-5.json": "489d367e677c6a6a74a6e8a670e621900a830e9b2a47c391761fa82e9cc35593",
+    "evidence/exploratory/explicit-pressure/INDEPENDENT_RESULTS.json": "d98827cca000cc266f94f074e3cd08fb3bc8d5638a1eeb33df563f351b241017",
+    "evidence/exploratory/explicit-pressure/INDEX.json": "1eb1c19dfd9deca90658d249da6787aaf729fd22739cedbf7fdd7f6aa421e5f9",
+    "evidence/exploratory/explicit-pressure/plan.json": "fac4ce20c9aeb91a85abdd47128c747bbc9fdf31c2d9ba02f5bd13fe22fbafb4",
+    "evidence/exploratory/explicit-pressure/recorded_adapter.py": "a58ab07425059815776e220544353fdaf07a50843d4d30009ad0fb371f9132fb",
+    "evidence/exploratory/grading-pressure/episode-01-seed-1.json": "c637db1041a61059a1d02ad4f13855412a4c2a47907f69dd522f7cab8e00a7f1",
+    "evidence/exploratory/grading-pressure/episode-02-seed-2.json": "5d947a54233db663aa7afd0c7dce71cbca043b5a4356191b8beceb29cc8d8e88",
+    "evidence/exploratory/grading-pressure/episode-03-seed-3.json": "fda5d6e57abb27b4911cbcee2f9a0c43a46b17e71200e419f0b3a16561e57fb8",
+    "evidence/exploratory/grading-pressure/episode-04-seed-4.json": "b70f616f20f7a9397d6c7d224d9f0e936040378d426181c22ce344e0bf3dd1c6",
+    "evidence/exploratory/grading-pressure/episode-05-seed-5.json": "66d4c5ff5452923d1e5ce5716fa889ab3120622b24f88c6c8e153356bbe2f2a2",
+    "evidence/exploratory/grading-pressure/INDEPENDENT_RESULTS.json": "9f04a48688764af243c0d1bf9ae578bb192d7c254ba91647f69cde6eb3f27c0b",
+    "evidence/exploratory/grading-pressure/INDEX.json": "c343ffb4f67b2a246918b64cbb9298512e9f842674cef0eab8a7cd95310844e7",
+    "evidence/exploratory/grading-pressure/plan.json": "5162cf56e2e0f9499a28340dccc8cc158c0d130caad17287c426c280901c6502",
+    "evidence/exploratory/grading-pressure/recorded_adapter.py": "352d5ea7b823673cc984b8ac47183416053d924cc0f019acb43be843e162694a",
+    "evidence/main/episode-01.json": "6984ffa1a1f88d95eb00ca7cef0c05d1a1293ac25f4ccecc6c994529235d47e4",
+    "evidence/main/episode-02.json": "8f47ab658b5fde1987dbbe34cd6af6452b1c867167af59e32108ab0f5e622703",
+    "evidence/main/episode-03.json": "4480f6e960dd7f26fda5b3c03f374d2d5966e10054ace1c245b1b872ae256f0c",
+    "evidence/main/episode-04.json": "e208efc1617f150c0ab05f567f73299f177f9aec6a6bfc0df6d8f0d89a01ad03",
+    "evidence/main/episode-05.json": "c99a3f43d33afeb1b53f3aeb0b4def08ea406e0d2f921eabd3d4b6f3ca2f141a",
+    "evidence/main/episode-06.json": "cfbe93163063b5ab2fe45e3fcbdf8f8b3eb599efaffb88113431213152fe1bd9",
+    "evidence/main/episode-07.json": "40177f9b0319bc6f8c3ca252ad4714e7a440c918c3e9af623a8fac11af7c7687",
+    "evidence/main/episode-08.json": "27aa31425b20b2e8e46f55b811f34c50b26f11d81dee21a9cf0782013557b10f",
+    "evidence/main/episode-09.json": "2b781b1d59ba1073ebe646ab62eb79373cba2099014b7bd79a4e085dbd794969",
+    "evidence/main/episode-10.json": "ed70b95e6fa1fa95a1abee43883a8d8de1b48c3d19d47dc181778205bd3b7ab5",
+    "evidence/main/executed-source.zip": "13a213d1d7f25bf1ea0b97a118deee7f916a2305c58133bc7c243fb8179dfe07",
+    "evidence/main/index.json": "d44e3d204ec3d9a46c897d029ee5604a2bba34881693b3847bd9fe4ea0406bf7",
+    "evidence/main/plan.json": "7f155b31ea15691b3b99233876e74f83e52381d938c473f9e0a687dcf2967a1a",
+    "evidence/pilots/episode-01.json": "b6958117cc0bead43d720efc53654b9de656c39e804f2aa446a275f519c04394",
+    "evidence/pilots/episode-02.json": "351694dc92a4455df54d9b60f5706e83f8e93089ffc6092f664fcb1feb2510d1",
+    "evidence/pilots/executed-source.zip": "2e3ff3cf75ff5a89692086e80e7953ad2321259be807a2b46c0f16f9746d8b00",
+    "evidence/pilots/index.json": "48d293e493009e3d7f68552099dade1abde632a343d8c02aef330c00c776bc11",
+    "evidence/pilots/plan.json": "29ac50230f30022762e141a4791ea1548c2f2f712b3ff47566b8f571f41a2e95",
+    "PUBLIC_INDEX.json": "4f3ad13f290e6d321bc54d2bf393920969ebf4e84e4d0376effa715561f5c7ed",
+    "pyproject.toml": "8dadce9521ca51a6a3446eb9fc674c2fabfe167411b8402ad385ddc231760a5c",
+    "README.md": "a6de84f8fabc6c916f28e50dfce4bd7bddf9ec54205a6335ace4591c0fe21106",
+    "tests/test_environment.py": "9f41e9ed4180dd3d78c5546f41dab0c10caf8864766e6047e09626f3b1123367",
+    "tests/test_main_evidence.py": "3e683083de0c917eedc0a32d7cdced78ff9f3d0efb42f0d7f39a83fccd98a7c6",
+    "tests/test_main_experiment.py": "e8fb404e1b5a8131600974084bfb13fe8e8b431f5c605d7d9660e1f4661a03fc",
+    "tests/test_pilot.py": "c1320cf035f1d910bf3fa16750c0067845a3fc8d63e8e3d31cbacd7093669ef1",
+    "tests/test_pilot_evidence.py": "1e00c6b62e53a5ee6eb54292cf2cf1b0ea5ed07807a1c3b571439dc38268b010",
+    "tests/test_replay.py": "97a97cef82e864cf5c81299dfde9edabfd244e14fd220e43e185f6ee5e4f9e93",
+    "tests/test_runner.py": "7ecec541dfece53bc661b0125c01108ce757ae321e974c742fa1d7c729aff2f3",
+    "tools/regrade_exploratory.py": "c09ff923649ae47b3c810179f4dba523d17ba0c2c7cf41f35d1c4e42fe1e6dfd",
+    "tools/regrade_public.py": "a6d5ee9152b3b5fa8ba72319730e43e688a5e89280c04b5688c62001df137571"
+  },
+  "additional_exploratory_evidence": "Separate adaptive existence tests in evidence/exploratory; replay with tools/regrade_exploratory.py. Never pooled with main or pilots."
+}
