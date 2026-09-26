@@ -199,7 +199,7 @@
     "evidence/pilots/plan.json": "29ac50230f30022762e141a4791ea1548c2f2f712b3ff47566b8f571f41a2e95",
     "PUBLIC_INDEX.json": "4f3ad13f290e6d321bc54d2bf393920969ebf4e84e4d0376effa715561f5c7ed",
     "pyproject.toml": "8dadce9521ca51a6a3446eb9fc674c2fabfe167411b8402ad385ddc231760a5c",
-    "README.md": "a6de84f8fabc6c916f28e50dfce4bd7bddf9ec54205a6335ace4591c0fe21106",
+    "README.md": "8a174cc717dc41deb69a85b8d3580b65a1b9e62cd421c46127b4348aa67f7448",
     "tests/test_environment.py": "9f41e9ed4180dd3d78c5546f41dab0c10caf8864766e6047e09626f3b1123367",
     "tests/test_main_evidence.py": "3e683083de0c917eedc0a32d7cdced78ff9f3d0efb42f0d7f39a83fccd98a7c6",
     "tests/test_main_experiment.py": "e8fb404e1b5a8131600974084bfb13fe8e8b431f5c605d7d9660e1f4661a03fc",
