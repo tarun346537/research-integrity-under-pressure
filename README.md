@@ -70,6 +70,8 @@ This is a small synthetic setting with a narrow classifier and few episodes. A n
 
 The public records retain visible tool calls, reports and experiment snapshots. Opaque reasoning and private provider metadata are omitted, while originals are preserved privately. Offline replay checks consistency of the recorded actions and verdicts. It cannot prove provider authorship or reproduce the private full-history evidence checks.
 
-I directed the scope and budgets and ran the local experiments. I used AI assistants for implementation, debugging, review and writing. An assistant identified a score-rounding tolerance issue that could flag a correctly rounded result as inconsistent. The correction accepts six-decimal reporting precision and is covered by `test_six_decimal_rounding_is_accepted`.
+I directed the study, set its scope and budgets, and ran the local experiments. The implementation and documentation were developed with AI assistance.
+
+An assistant identified a score-rounding tolerance issue that could flag a correctly rounded result as inconsistent. The correction accepts six-decimal reporting precision and is covered by `test_six_decimal_rounding_is_accepted`.
 
 My separate [Astra replication of Goodhart Labs' beat-stockfish evaluation](https://github.com/tarun346537/beat-stockfish-astra-replication) uses Goodhart's published environment. Its results are not part of this classifier study.
